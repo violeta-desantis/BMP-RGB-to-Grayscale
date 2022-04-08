@@ -35,10 +35,10 @@ typedef struct BitmapInfoHeader { // Windows BITMAPINFOHEADER
 /* returns 0 if filename ends in .bmp */
 int check_ext(char *filename) {
     int len = strlen(filename);
-	if (filename[len-4]=='.' && filename[len-3]=='b' && filename[len-2]=='m' && filename[len-1]=='p') {
-		return 0;
+    if (filename[len-4]=='.' && filename[len-3]=='b' && filename[len-2]=='m' && filename[len-1]=='p') {
+        return 0;
     }
-	return 1;
+    return 1;
 }
 
 /* mallocs and returns a string in the form filename_gs.bmp */
