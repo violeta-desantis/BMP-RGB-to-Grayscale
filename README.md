@@ -12,3 +12,8 @@ Example usage:
 ```
 [see grayscale output in filename_gs.bmp]
 ```
+
+EDIT: Just for fun, I made an extremely shortened version of this code - which you can see here:
+https://github.com/violeta-desantis/CodeGolf/tree/main/bmp_gray
+
+(Warning: not for the faint of heart!)
